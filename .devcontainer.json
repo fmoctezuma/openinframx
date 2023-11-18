@@ -5,5 +5,11 @@
             "extended": true
         }
     },
+    "customizations": {
+        "forwardPorts": [
+            1313
+        ],
+    },
+    "remoteUser": "node",
     "postCreateCommand": "git submodule update --init --recursive && npm install"
 }
